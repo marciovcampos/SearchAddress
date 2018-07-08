@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:hint="@string/zipecode">
+
+            <EditText
+                android:id="@+id/edtZipCodeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="8" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableRight="@mipmap/ic_search_foreground"
+            android:drawableTint="@color/colorWhite"
+            android:onClick="onClickSearch"
+            android:text="@string/btnSearchAddress"
+            android:textColor="@color/colorWhite" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtAddressLine1Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/addressLine1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtAddressLine2Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/addressLine2" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtAddressLine3Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/addressLine3" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtCityId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/City" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edtStateId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/State" />
+        </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.widget.LinearLayout>

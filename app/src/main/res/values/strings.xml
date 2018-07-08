@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Search Address</string>
+    <string name="zipecode">Type the Zip Code (Only Numbers)</string>
+    <string name="City">City</string>
+    <string name="State">State</string>
+    <string name="errorRetriveData">Could not retrieve data...</string>
+    <string name="sucessRetriveData">Address recovered!</string>
+    <string name="errorZipCodeRequired">Zip Code Required!</string>
+    <string name="addressLine1">Address Line 1</string>
+    <string name="addressLine2">Address Line 2</string>
+    <string name="addressLine3">Address Line 3</string>
+    <string name="btnSearchAddress">SEARCH ADDRESS</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Buscar Endereço</string>
+    <string name="zipecode">Digite o CEP (Somente Números)</string>
+    <string name="City">Cidade</string>
+    <string name="State">UF</string>
+    <string name="errorRetriveData">Não foi possível recuperar os dados...</string>
+    <string name="sucessRetriveData">Endereço recuperado com sucesso!</string>
+    <string name="errorZipCodeRequired">Informe o CEP!</string>
+    <string name="addressLine1">Logradouro</string>
+    <string name="addressLine2">Complemento</string>
+    <string name="addressLine3">Bairro</string>
+    <string name="btnSearchAddress">BUSCAR ENDEREÇO</string>
+</resources>
